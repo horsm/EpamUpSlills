@@ -1,4 +1,4 @@
-package Basics_of_software_code_development_1.Branching;
+package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Branching;
 
 public class Task_1_Triangle {
     public static void main(String[] args) {
