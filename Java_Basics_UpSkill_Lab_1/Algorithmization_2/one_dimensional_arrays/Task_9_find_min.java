@@ -1,4 +1,4 @@
-package Algorithmization_2.one_dimensional_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.one_dimensional_arrays;
 
 import java.util.Arrays;
 

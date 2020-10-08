@@ -1,9 +1,9 @@
-package Algorithmization_2.one_dimensional_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.one_dimensional_arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task_5_print {
+public class Task_3_count {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите размерность массива: ");
@@ -19,10 +19,19 @@ public class Task_5_print {
         }
         System.out.println(Arrays.toString(array));
 
+        int countOtr = 0;
+        int countPol = 0;
+        int countZer = 0;
+
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > i) {
-                System.out.print(array[i] + " ");
-            }
+            if (array[i] < 0) {
+                countOtr++;
+            } else if (array[i] > 0) {
+                countPol++;
+            } else countZer++;
         }
+        System.out.println("Количество положительных: " + countPol + '\n' +
+                "Количество отрицательных: " + countOtr + '\n' +
+                "Количество нулевых: " + countZer);
     }
 }
