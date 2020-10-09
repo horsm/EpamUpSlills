@@ -1,5 +1,7 @@
 package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
+// создание и печать матрицы
+
 class Matrix {
 
     int[][] fill_matrix(int n, int m) {
