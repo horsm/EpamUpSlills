@@ -25,13 +25,6 @@ public class Task_10_positive {
                 }
             }
         }
-
-
-
-
-
-
-
     }
 
 
