@@ -1,6 +1,6 @@
 package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
-public class Task_15_max_replace {
+public class Task15MaxReplace {
     public static void main(String[] args) {
 
         int[][] matrix = new int[3][4];
