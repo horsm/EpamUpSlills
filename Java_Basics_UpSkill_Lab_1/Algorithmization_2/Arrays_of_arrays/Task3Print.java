@@ -2,10 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 3. Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
 
-import java.sql.Array;
-import java.util.Arrays;
-
-public class Task_3_print {
+public class Task3Print {
     public static void main(String[] args) {
         int n = 9;
         int m = 10;
