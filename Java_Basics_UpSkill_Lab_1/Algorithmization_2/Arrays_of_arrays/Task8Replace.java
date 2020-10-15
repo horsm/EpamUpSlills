@@ -5,7 +5,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 import java.util.Scanner;
 
-public class Task_8_replace {
+public class Task8Replace {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
