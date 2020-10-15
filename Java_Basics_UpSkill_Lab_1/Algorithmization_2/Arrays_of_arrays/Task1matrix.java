@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 1. Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
 
-public class Task_1_matrix {
+public class Task1matrix {
     public static void main(String[] args) {
         int n = 10;
         int m = 10;
