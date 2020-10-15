@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 6. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
 
-public class Task_6_fill_matrix {
+public class Task6FillMatrix {
     public static void main(String[] args) {
         int n = 10;
 
