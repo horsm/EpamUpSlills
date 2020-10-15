@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 //  10. Найти положительные элементы главной диагонали квадратной матрицы.
 
-public class Task_10_positive {
+public class Task10Positive {
     public static void main(String[] args) {
 
         int n = 3;
