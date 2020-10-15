@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 12. Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
 
-public class Task_12_sort_of_stroki {
+public class Task12SortOfStroki {
     public static void main(String[] args) {
         int n = 3;
         int m = 4;
