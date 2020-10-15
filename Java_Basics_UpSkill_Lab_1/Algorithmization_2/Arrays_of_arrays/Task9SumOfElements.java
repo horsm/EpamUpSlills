@@ -4,7 +4,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 //    Определить, какой столбец содержит максимальную сумму.
 
 
-public class Task_9_sum_of_elements {
+public class Task9SumOfElements {
     public static void main(String[] args) {
         int n = 3;
         int m = 4;
