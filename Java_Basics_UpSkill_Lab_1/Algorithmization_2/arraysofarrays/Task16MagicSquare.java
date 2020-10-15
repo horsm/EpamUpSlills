@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.arraysofarrays;
 
 // 16. Магическим квадратом порядка n называется квадратная матрица размера nxn,
 // составленная из чисел 1, 2, 3, ..., так, что суммы по каждому столбцу, каждой строке

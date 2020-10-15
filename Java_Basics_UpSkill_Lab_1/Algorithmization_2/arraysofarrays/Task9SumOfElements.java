@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.arraysofarrays;
 
 // 9. Задана матрица неотрицательных чисел. Посчитать сумму элементов в каждом столбце.
 //    Определить, какой столбец содержит максимальную сумму.

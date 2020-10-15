@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.arraysofarrays;
 
 // 8. В числовой матрице поменять местами два столбца любых столбца, т. е. все элементы одного столбца поставить на соответствующие им
 // позиции другого, а его элементы второго переместить в первый. Номера столбцов вводит пользователь с клавиатуры.

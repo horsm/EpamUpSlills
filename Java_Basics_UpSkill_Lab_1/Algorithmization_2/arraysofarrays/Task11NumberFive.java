@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
+package Java_Basics_UpSkill_Lab_1.Algorithmization_2.arraysofarrays;
 
 //  11. Матрицу 10x20 заполнить случайными числами от 0 до 15. Вывести на экран саму матрицу и номера строк, в которых
 //      число 5 встречается три и более раз.
