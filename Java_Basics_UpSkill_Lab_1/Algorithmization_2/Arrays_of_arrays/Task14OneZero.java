@@ -4,7 +4,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 import java.util.Random;
 
-public class TaskFourteenOneZero {
+public class Task14OneZero {
     static int m = 5;
     static int n = 6;
     static int[][] matrix = new int[m][n];
