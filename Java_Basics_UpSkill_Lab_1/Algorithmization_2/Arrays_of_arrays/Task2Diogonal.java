@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 2. Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
 
-public class Task2diogonal {
+public class Task2Diogonal {
     public static void main(String[] args) {
         int n = 10;
         int m = 10;
