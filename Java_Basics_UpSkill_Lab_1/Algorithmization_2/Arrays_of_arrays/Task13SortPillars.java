@@ -4,7 +4,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 import java.util.Random;
 
-public class TaskThirteenSortPillars {
+public class Task13SortPillars {
     static int n = 5;
     static int m = 6;
     static Random random = new Random();
