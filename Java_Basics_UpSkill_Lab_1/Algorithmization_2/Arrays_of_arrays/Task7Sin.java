@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Algorithmization_2.Arrays_of_arrays;
 
 // 7. Сформировать квадратную матрицу порядка N по правилу:
 
-public class Task_7_sin {
+public class Task7Sin {
     public static void main(String[] args) {
         int n = 10;
         int count = 0;
