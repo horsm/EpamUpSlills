@@ -20,14 +20,14 @@ public class Task7Numbers {
     }
 
     private static void numbers(StringBuilder s1, StringBuilder s2) {
-        HashSet<Character> data_hashset = new HashSet<>();
+        HashSet<Character> dataHashset = new HashSet<>();
         for (int i = 0; i < s1.length(); i++) {
             for (int j = 0; j < s2.length(); j++) {
                 if (s1.charAt(i) == s2.charAt(j)) {
-                    data_hashset.add(s1.charAt(i));
+                    dataHashset.add(s1.charAt(i));
                 }
             }
         }
-        System.out.println(data_hashset.toString());
+        System.out.println(dataHashset.toString());
     }
 }
