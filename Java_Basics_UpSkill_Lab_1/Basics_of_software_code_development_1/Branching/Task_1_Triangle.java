@@ -7,7 +7,7 @@ public class Task_1_Triangle {
         int c = 180 - a - b;
 
         if (((a > 0) && (a < 180) && (b > 0) && (b < 180) && (c > 0))) {
-            if ((a == 90) || (b == 90) | (c == 90)) {
+            if ((a == 90) || (b == 90) || (c == 90)) {
                 System.out.println("Треугольник прямоугольный");
             } else if ((a > 90) || (b > 90) || (c > 90)) {
                 System.out.println("Треугольник тупоугольный");
