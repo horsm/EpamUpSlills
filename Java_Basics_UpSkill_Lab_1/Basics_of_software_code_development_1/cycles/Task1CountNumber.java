@@ -19,6 +19,5 @@ public class Task1CountNumber {
         for (int i = 1; i <= b; i++) count += i;
         System.out.println(count);
 
-
     }
 }
