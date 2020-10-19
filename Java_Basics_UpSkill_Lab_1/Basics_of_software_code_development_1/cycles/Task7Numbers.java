@@ -1,8 +1,10 @@
 package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.cycles;
 
+//7. Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
+
 import java.util.HashSet;
 
-public class Task_7_numbers {
+public class Task7Numbers {
     public static void main(String[] args) {
         int a = 516489;
         int b = 1234556;
@@ -10,8 +12,8 @@ public class Task_7_numbers {
         System.out.println("Число a = " + a);
         System.out.println("Число b = " + b);
 
-        StringBuilder s1 = getStringBuilder(a);
-        StringBuilder s2 = getStringBuilder(b);
+        StringBuilder s1 = new StringBuilder().append(a);
+        StringBuilder s2 = new StringBuilder().append(b);
 
         System.out.println("Цифры входящие в запись 2-х чисел: ");
         numbers(s1, s2);
@@ -27,14 +29,5 @@ public class Task_7_numbers {
             }
         }
         System.out.println(data_hashset.toString());
-    }
-
-    private static StringBuilder getStringBuilder(int a) {
-        StringBuilder s = new StringBuilder();
-        while (a > 0) {
-            s.insert(0, a % 10);
-            a = a / 10;
-        }
-        return s;
     }
 }
