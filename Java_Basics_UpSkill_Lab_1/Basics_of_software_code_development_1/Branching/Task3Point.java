@@ -1,6 +1,6 @@
 package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Branching;
 
-public class Task_3_Point {
+public class Task3Point {
     public static void main(String[] args) {
         int x1 = -2;
         int y1 = 5;
