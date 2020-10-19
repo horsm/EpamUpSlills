@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Branching;
+package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.branching;
 
 public class Task3Point {
     public static void main(String[] args) {
