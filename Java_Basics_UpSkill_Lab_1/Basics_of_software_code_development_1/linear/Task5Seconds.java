@@ -1,4 +1,4 @@
-package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Linear;
+package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.linear;
 
 public class Task5Seconds {
     public static void main(String[] args) {
