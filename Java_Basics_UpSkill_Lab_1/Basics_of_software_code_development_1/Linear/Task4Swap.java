@@ -1,6 +1,6 @@
 package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Linear;
 
-public class Task_4_Swap {
+public class Task4Swap {
     public static void main(String[] args) {
         double R = 555.666;
 

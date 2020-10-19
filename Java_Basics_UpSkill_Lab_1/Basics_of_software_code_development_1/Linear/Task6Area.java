@@ -1,6 +1,6 @@
 package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Linear;
 
-public class Task_6_Area {
+public class Task6Area {
     public static void main(String[] args) {
         double x = 1;
         double y = 1;

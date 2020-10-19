@@ -1,6 +1,6 @@
 package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.Linear;
 
-public class Task_3_Formula {
+public class Task3Formula {
     public static void main(String[] args) {
         double x = 40;
         double y = 50;
