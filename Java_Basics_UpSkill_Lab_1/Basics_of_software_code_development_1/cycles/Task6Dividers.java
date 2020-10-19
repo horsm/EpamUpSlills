@@ -2,7 +2,7 @@ package Java_Basics_UpSkill_Lab_1.Basics_of_software_code_development_1.cycles;
 
 import java.util.Scanner;
 
-public class Task_6_dividers {
+public class Task6Dividers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите число m: ");
