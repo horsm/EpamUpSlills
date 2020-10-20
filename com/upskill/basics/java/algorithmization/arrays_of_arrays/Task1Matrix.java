@@ -1,4 +1,4 @@
-package com.upskill.basics.java.algorithmization.arraysofarrays;
+package com.upskill.basics.java.algorithmization.arrays_of_arrays;
 
 // 1. Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
 

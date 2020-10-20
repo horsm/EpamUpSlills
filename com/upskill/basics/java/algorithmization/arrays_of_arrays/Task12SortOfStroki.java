@@ -1,4 +1,4 @@
-package com.upskill.basics.java.algorithmization.arraysofarrays;
+package com.upskill.basics.java.algorithmization.arrays_of_arrays;
 
 // 12. Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
 

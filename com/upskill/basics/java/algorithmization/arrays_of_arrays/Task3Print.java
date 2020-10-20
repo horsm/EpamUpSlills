@@ -1,4 +1,4 @@
-package com.upskill.basics.java.algorithmization.arraysofarrays;
+package com.upskill.basics.java.algorithmization.arrays_of_arrays;
 
 // 3. Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
 

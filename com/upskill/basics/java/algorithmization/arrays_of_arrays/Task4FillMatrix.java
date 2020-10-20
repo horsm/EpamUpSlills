@@ -1,4 +1,4 @@
-package com.upskill.basics.java.algorithmization.arraysofarrays;
+package com.upskill.basics.java.algorithmization.arrays_of_arrays;
 
 // 4. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
 

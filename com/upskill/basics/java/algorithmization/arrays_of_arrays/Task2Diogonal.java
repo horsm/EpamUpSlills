@@ -1,4 +1,4 @@
-package com.upskill.basics.java.algorithmization.arraysofarrays;
+package com.upskill.basics.java.algorithmization.arrays_of_arrays;
 
 // 2. Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
 
