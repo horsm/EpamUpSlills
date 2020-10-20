@@ -11,6 +11,6 @@ public class Task11MaxLength {
     }
 
     private static long findMaxLength(double a, double b) {
-        return (long) (((Math.log10(a) + 1)) > ((Math.log10(b) + 1)) ? a : b);
+        return (long) ((Math.log10(a) + 1) > (Math.log10(b) + 1) ? a : b);
     }
 }
