@@ -2,7 +2,7 @@ package com.upskill.basics.java.algorithmization.one_dimensional_arrays;
 
 import java.util.Arrays;
 
-public class Task_10_delete_every_two {
+public class Task10DeleteEveryTwo {
     public static void main(String[] args) {
         int[] a = {0, 1, 2, 3, 4, 5, 6, 7, 8};
         System.out.println(Arrays.toString(getLessArray(a)));
