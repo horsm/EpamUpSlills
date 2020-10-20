@@ -1,5 +1,8 @@
 package com.upskill.basics.java.algorithmization.one_dimensional_arrays;
 
+// 6. Задана последовательность N вещественных чисел.
+//    Вычислить сумму чисел, порядковые номера которых являются простыми числами.
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

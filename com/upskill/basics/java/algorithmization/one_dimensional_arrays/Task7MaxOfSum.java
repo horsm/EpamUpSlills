@@ -1,9 +1,11 @@
 package com.upskill.basics.java.algorithmization.one_dimensional_arrays;
 
+// 7. Даны действительные числа а1 ,а2 ,..., аn. Найти
+
 import java.util.Arrays;
 import java.util.Random;
 
-public class Task_7_max_of_sum {
+public class Task7MaxOfSum {
     public static void main(String[] args) {
         int n = 10;
 
