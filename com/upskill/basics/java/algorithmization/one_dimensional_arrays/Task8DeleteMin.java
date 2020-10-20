@@ -1,24 +1,27 @@
 package com.upskill.basics.java.algorithmization.one_dimensional_arrays;
 
+// 8. Дана последовательность целых чисел а1 ,а2 ,..., аn.
+//    Образовать новую последовательность, выбросив из исходной те члены, которые равны min(а1 ,а2 ,..., аn).
+
 import java.util.Arrays;
 
-public class Task_8_delete_min {
+public class Task8DeleteMin {
     public static void main(String[] args) {
 
-        double[] array = {0, 2, 3, 0, 1, 0, 7, 8, 1};
+        int[] array = {0, 2, 3, 0, 1, 0, 7, 8, 1};
 
         System.out.println("Первичный массив:");
         System.out.println(Arrays.toString(array));
 
-        double min = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (min > array[i]) {
-                min = array[i];
+        int min = array[0];
+        for (int value : array) {
+            if (min > value) {
+                min = value;
             }
         }
         int count = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (min == array[i]) {
+        for (int value : array) {
+            if (min == value) {
                 count++;
             }
         }

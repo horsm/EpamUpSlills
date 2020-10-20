@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task_6_sum_of_element {
+public class Task6SumOfElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите размерность массива: ");
@@ -18,6 +18,8 @@ public class Task_6_sum_of_element {
         int n = sc.nextInt();
 
         double[] array = new double[n];
+      //  double[] array = {10,20,30};
+
         Random rand = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = Math.ceil(rand.nextDouble() * 10000 - 5000) / 100;
@@ -26,9 +28,9 @@ public class Task_6_sum_of_element {
         System.out.println(Arrays.toString(array));
 
         double count = 0;
-        for (int i = 2; i < array.length; i++) {
+        for (int i = 2; i < array.length + 1; i++) {
             if (checkNum(i)) {
-                count += array[i];
+                count += array[i-1];
             }
         }
         System.out.println("Сумма = " + count);
