@@ -10,7 +10,7 @@ public class Task9Quadrangle {
         double z = 5;
         double t = 6;
 
-        System.out.println(quadrangleArea(x,y,z,t));
+        System.out.println("Площадь четерехугольника = " + quadrangleArea(x,y,z,t));
     }
 
     private static double quadrangleArea(double x, double y, double z, double t) {
