@@ -16,7 +16,7 @@ public class Task15Sequence {
         }
         int n = sc.nextInt();
 
-        for (int i = (int) Math.pow(10, n-1); i < Math.pow(10, n) - 1; i++) {
+        for (int i = (int) Math.pow(10, n-1); i < Math.pow(10, n); i++) {
             if (isIncreases(getNumber(i))) {
                 System.out.println(i);
             }
