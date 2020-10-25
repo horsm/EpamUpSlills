@@ -1,5 +1,7 @@
 package com.upskill.basics.java.strings_and_basics_of_text_processing;
 
+//  2. Замените в строке все вхождения 'word' на 'letter'.
+
 import java.util.Scanner;
 
 public class Task2Occurrences {
