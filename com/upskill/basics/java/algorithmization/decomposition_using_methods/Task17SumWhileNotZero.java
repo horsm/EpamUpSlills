@@ -7,7 +7,7 @@ package com.upskill.basics.java.algorithmization.decomposition_using_methods;
 
 import java.util.Scanner;
 
-public class Task17SumWhileZero {
+public class Task17SumWhileNotZero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите число n: ");
