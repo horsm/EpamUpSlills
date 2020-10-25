@@ -17,6 +17,7 @@ public class Task13Twins {
         }
         int n = sc.nextInt();
 
+        System.out.println("Числа близнецы: ");
         for (int i = 2; i < 2 * n - 2; i++) {
             if (isNaturalNumber(i) && isNaturalNumber(i + 2)){
                 System.out.println(i + "  " + (i + 2));
