@@ -1,4 +1,4 @@
-package com.upskill.basics.java.strings_and_basics_of_text_processing;
+package com.upskill.basics.java.strings_and_basics_of_text_processing.string;
 
 // 1. Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
 

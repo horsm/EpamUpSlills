@@ -1,4 +1,4 @@
-package com.upskill.basics.java.strings_and_basics_of_text_processing;
+package com.upskill.basics.java.strings_and_basics_of_text_processing.string;
 
 //  2. Замените в строке все вхождения 'word' на 'letter'.
 

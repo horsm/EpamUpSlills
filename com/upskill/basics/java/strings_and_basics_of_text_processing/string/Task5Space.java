@@ -1,4 +1,4 @@
-package com.upskill.basics.java.strings_and_basics_of_text_processing;
+package com.upskill.basics.java.strings_and_basics_of_text_processing.string;
 
 // 5. Удалить в строке все лишние пробелы, то есть серии подряд идущих пробелов заменить на одиночные пробелы.
 //    Крайние пробелы в строке удалить.
@@ -13,9 +13,9 @@ public class Task5Space {
 
         System.out.println("Исходная строка: |" + originalString + "|");
 
-        for (int i = 0; i < newString.length; i++) {
-            if (!newString[i].equals("")) {
-                stringList.add(newString[i]);
+        for (String s : newString) {
+            if (!s.equals("")) {
+                stringList.add(s);
             }
         }
         StringBuilder stringBuilder = new StringBuilder();

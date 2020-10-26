@@ -1,4 +1,4 @@
-package com.upskill.basics.java.strings_and_basics_of_text_processing;
+package com.upskill.basics.java.strings_and_basics_of_text_processing.string;
 
 // 4. В строке найти количество чисел.
 
