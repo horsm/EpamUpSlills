@@ -18,7 +18,7 @@ public class Task2Occurrences {
         StringBuilder strBuilder = new StringBuilder();
         String text = "newsad word sdasdfsdafosoft word";
         System.out.println("Исходный текст: " + text);
-        String letter;
+
         for (int i = 0; i < text.length(); i++) {
             if (i + 3 < text.length() && text.charAt(i) == 'w'
                                       && text.charAt(i + 1) == 'o'
