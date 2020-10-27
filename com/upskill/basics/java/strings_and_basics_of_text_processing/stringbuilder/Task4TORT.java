@@ -4,6 +4,10 @@ package com.upskill.basics.java.strings_and_basics_of_text_processing.stringbuil
 
 public class Task4TORT {
     public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Введите строку: ");
+//        String stroka = sc.next();
+
         String stroka = "информатика";
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(stroka.charAt(7)).append(stroka.charAt(3)).append(stroka.charAt(4)).append(stroka.charAt(7));
