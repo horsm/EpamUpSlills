@@ -17,10 +17,10 @@ public class Task8FindMaxLength {
         int maxLength = 0;
         String stringWithMaxLength = "";
 
-        for (int i = 0; i < masSlov.length; i++) {
-            if (masSlov[i].length() > maxLength) {
-                maxLength = masSlov[i].length();
-                stringWithMaxLength = masSlov[i];
+        for (String s : masSlov) {
+            if (s.length() > maxLength) {
+                maxLength = s.length();
+                stringWithMaxLength = s;
             }
         }
         System.out.println("Самое длинное слово: " + stringWithMaxLength);
