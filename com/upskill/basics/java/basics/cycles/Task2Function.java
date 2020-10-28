@@ -26,7 +26,7 @@ public class Task2Function {
         }
         double h = sc.nextDouble();
 
-        while (x < b) {
+        while (x <= b) {
             if (x <= 2) {
                 System.out.println("При значении х = " + x + " f(x) = " + -x);
             } else {
