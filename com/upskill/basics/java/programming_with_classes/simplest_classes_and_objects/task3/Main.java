@@ -21,18 +21,18 @@ public class Main {
 
         int count = 0;
 
-        for (int i = 0; i < students.length; i++) {
-            for (int j = 0; j < students[i].getPerformance().length; j++) {
-                    if (students[i].getPerformance()[j] == 9 || students[i].getPerformance()[j] == 10) {
-                        count++;
-                    }
+        for (Student student : students) {
+            for (int j = 0; j < student.getPerformance().length; j++) {
+                if (student.getPerformance()[j] >= 9) {
+                    count++;
                 }
-                if (count == 5) {
-                    System.out.println("Лучший студент: " + students[i].getSurname() + " из группы № " + students[i].getGroupNumber());
-                    count = 0;
-                } else {
-                    count = 0;
-                }
+            }
+            if (count == 5) {
+                System.out.println("Лучший студент: " + student.getSurname() + " из группы № " + student.getGroupNumber());
+                count = 0;
+            } else {
+                count = 0;
+            }
         }
     }
 
