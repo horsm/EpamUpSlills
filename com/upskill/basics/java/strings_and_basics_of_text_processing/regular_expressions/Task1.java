@@ -8,11 +8,8 @@ package com.upskill.basics.java.strings_and_basics_of_text_processing.regular_ex
     а в случае равенства – по алфавиту.
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class Task1 {
