@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.Pattern;
 
-public class Task1 {
+public class Task1Text {
     public static void main(String[] args) throws IOException {
         String text = "1. Это первый абзац, содержит одно предложение.\n" +
                 "2. Это второй абзац. Он длиньше первого. Содержит 3 предложения.\n" +
