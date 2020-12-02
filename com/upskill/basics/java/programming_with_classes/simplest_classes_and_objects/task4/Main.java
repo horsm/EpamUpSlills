@@ -9,12 +9,14 @@ package com.upskill.basics.java.programming_with_classes.simplest_classes_and_ob
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Scanner;
 
 public class Main {
-    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+
     public static void main(String[] args) throws ParseException {
 
-        Train [] trains = new Train[5];
+        Train[] trains = new Train[5];
         trains[0] = new Train("Витебск", 26, simpleDateFormat.parse("18:45"));
         trains[1] = new Train("Москва", 45, simpleDateFormat.parse("09:15"));
         trains[2] = new Train("Санкт-Петербург", 65, simpleDateFormat.parse("22:10"));
@@ -26,7 +28,7 @@ public class Main {
         sortByTrainNumber(trains);
 
         for (Train train : trains) {
-            System.out.println("Поезд № " + train.getTrainNumber() + ", название пункта назначения: " + train.getDestination() +
+            System.out.println("Поезд № " + train.getTrainNumber() + ". Название пункта назначения: " + train.getDestination() +
                     ", время отправления: " + simpleDateFormat.format(train.getDepartureTime()));
         }
 
@@ -34,20 +36,33 @@ public class Main {
 
         // вывод информации о поезде
         System.out.println("---Вывод информации о поезде---");
-        int zapros = 23;
-        System.out.println("Поезд № " + zapros);
-        System.out.println(printTrainInformation(trains, zapros) + "\n");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Введите номер поезда: ");
+        while (!sc.hasNextInt()) {
+            System.out.print("Это не число! Введите номер поезда: ");
+            sc.next();
+        }
+        int zapros = sc.nextInt();
+
+        if (printTrainInformation(trains, zapros) == null) {
+            System.out.println("Нет такого поезда!");
+        } else {
+            System.out.println("Поезд № " + zapros);
+            System.out.println(printTrainInformation(trains, zapros) + "\n");
+        }
+
+        System.out.println();
 
         // сортировка по пункту назначения
         System.out.println("---Сортировка по пункту назначения---");
         sortTrainDestination(trains);
         for (Train train : trains) {
-            System.out.println("Поезд № " + train.getTrainNumber() + ", название пункта назначения: " + train.getDestination() +
-            ", время отправления: " + simpleDateFormat.format(train.getDepartureTime()));
+            System.out.println("Поезд № " + train.getTrainNumber() + ". Название пункта назначения: " + train.getDestination() +
+                    ", время отправления: " + simpleDateFormat.format(train.getDepartureTime()));
         }
     }
 
-    private static void sortByTrainNumber(Train [] trains) {
+    private static void sortByTrainNumber(Train[] trains) {
         Train temp;
         for (int i = 0; i < trains.length; i++) {
             for (int j = trains.length - 1; j > i; j--) {
@@ -60,7 +75,7 @@ public class Main {
         }
     }
 
-    private static String printTrainInformation(Train [] trains, int trainNumber) {
+    private static String printTrainInformation(Train[] trains, int trainNumber) {
         for (Train train : trains) {
             if (train.getTrainNumber() == trainNumber) {
                 return "название пункта назначения: " + train.getDestination() +
@@ -70,7 +85,7 @@ public class Main {
         return null;
     }
 
-    private static void sortTrainDestination(Train [] trains) {
+    private static void sortTrainDestination(Train[] trains) {
         Train temp;
         for (int i = 0; i < trains.length; i++) {
             for (int j = trains.length - 1; j > i; j--) {
