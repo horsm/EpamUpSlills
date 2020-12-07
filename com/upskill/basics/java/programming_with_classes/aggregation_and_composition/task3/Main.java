@@ -1,5 +1,10 @@
 package com.upskill.basics.java.programming_with_classes.aggregation_and_composition.task3;
 
+/*
+3. Создать объект класса Государство, используя классы Область, Район, Город.
+Методы: вывести на консоль столицу, количество областей, площадь, областные центры.
+ */
+
 public class Main {
     public static void main(String[] args) {
         City minsk = new City("Минск");
